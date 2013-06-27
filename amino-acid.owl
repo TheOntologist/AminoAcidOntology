@@ -179,6 +179,18 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
             </owl:Restriction>
@@ -191,20 +203,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Alanine</preferredName>
@@ -333,14 +333,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -351,8 +351,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -403,14 +403,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -427,8 +427,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO: Aspartate?</owl:versionInfo>
@@ -455,14 +455,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Negative"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Negative"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -494,24 +494,6 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
             </owl:Restriction>
@@ -522,11 +504,24 @@
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#N"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#T"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#V"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#W"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Y"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <preferredName xml:lang="en">Phenylalanine</preferredName>
         <shortName xml:lang="en">phe</shortName>
         <shortName xml:lang="zh">&#33519;&#19993;</shortName>
@@ -547,6 +542,12 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
             </owl:Restriction>
@@ -559,20 +560,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Glycine</preferredName>
@@ -592,20 +587,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Positive"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -616,8 +605,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Positive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Histidine</preferredName>
@@ -685,8 +680,20 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -697,20 +704,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Isoleucine</preferredName>
@@ -732,20 +727,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Positive"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -756,8 +745,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Positive"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Lysine</preferredName>
@@ -778,14 +773,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -802,8 +797,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Leucine</preferredName>
@@ -861,6 +856,18 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
             </owl:Restriction>
@@ -875,18 +882,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Methionine</preferredName>
@@ -911,50 +906,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Small"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -969,10 +928,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Small"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#T"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#V"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#W"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Y"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO: Should this be Aliphatic?</owl:versionInfo>
         <preferredName xml:lang="en">Asparagine</preferredName>
         <shortName xml:lang="en">asn</shortName>
@@ -1056,8 +1017,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1068,14 +1029,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Proline</preferredName>
@@ -1161,14 +1122,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1179,8 +1140,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1206,20 +1167,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1232,6 +1187,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Arginine</preferredName>
@@ -1263,14 +1224,14 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1281,14 +1242,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Serine</preferredName>
@@ -1381,44 +1342,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1429,13 +1354,16 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#V"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#W"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Y"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <preferredName xml:lang="en">Threonine</preferredName>
         <shortName xml:lang="en">thr</shortName>
         <rdfs:comment xml:lang="zh">&#21035;&#21517;&#65306;&#32671;&#19969;&#37240;?</rdfs:comment>
@@ -1492,31 +1420,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1528,7 +1432,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1539,18 +1443,10 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Small"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#W"/>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Y"/>
         <preferredName xml:lang="en">Valine</preferredName>
         <shortName xml:lang="en">val</shortName>
         <shortName xml:lang="zh">&#32556;</shortName>
@@ -1568,32 +1464,8 @@
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#SpecificAminoAcid"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1604,29 +1476,22 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Y"/>
         <preferredName xml:lang="en">Tryptophan</preferredName>
         <shortName xml:lang="en">trp</shortName>
         <shortName xml:lang="zh">&#33394;</shortName>
@@ -1645,19 +1510,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1668,20 +1521,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1692,20 +1533,109 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
-                <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <preferredName xml:lang="en">Tyrosine</preferredName>
         <shortName xml:lang="en">tyr</shortName>
         <shortName xml:lang="zh">&#37226;</shortName>
         <preferredName xml:lang="zh">&#37226;&#27688;&#37240;</preferredName>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#ChargedAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#ChargedAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charge amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Negative"/>
+                                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Positive"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondAcceptor -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondAcceptor">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondFormation"/>
+        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondDonor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondDonor -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondDonor">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondFormation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondFormation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondFormation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#PhysicoChemicalProperty"/>
+    </owl:Class>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HBondFormation"/>
+        </owl:members>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HydrophilicAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HydrophilicAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrophilic amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophilic"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HydrophobicAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#HydrophobicAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrophobic amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasHydrophobicity"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Hydrophobic"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </owl:Class>
     
 
@@ -1729,10 +1659,296 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#LargeAromaticAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#LargeAromaticAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Large aromatic amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Large"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#LargeChargedAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#LargeChargedAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Large charged amino Acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#ChargedAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#LargeAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#LargePositiveAliphaticAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#LargePositiveAliphaticAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Large positively charged aliphatic amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#PositiveChargedAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#LargeAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#NeutralChargedAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#NeutralChargedAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutral charged Amino Acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasCharge"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Neutral"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#Non-PolarAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#Non-PolarAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-polar amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Non-Polar"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#PhysicoChemicalProperty -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#PhysicoChemicalProperty">
         <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#RefiningFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#PolarAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#PolarAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polar amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasPolarity"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Polar"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAliphaticAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAliphaticAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small aliphatic amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aliphatic"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Small"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Small"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallChargedAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallChargedAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small charged amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#ChargedAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallChargedPolarAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallChargedPolarAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small charged polar amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#ChargedAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#PolarAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallNeutralAliphaticAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallNeutralAliphaticAminoAcid">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#NeutralChargedAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallNonPolarAliphaticAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallNonPolarAliphaticAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small non-polar aliphatic  amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#Non-PolarAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallNonPolarAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallNonPolarAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small non-polar amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#Non-PolarAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallPolarAliphaticAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallPolarAliphaticAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small polar aliphatic  amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#PolarAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallPolarAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallPolarAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small polar amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#PolarAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallPositiveAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallPositiveAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small positively cahrged amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#PositiveChargedAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#SmallAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </owl:Class>
     
 
@@ -1778,6 +1994,30 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#TinyAromaticAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#TinyAromaticAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tiny aromatic amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSideChainStructure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#TinyHydrophobicAminoAcid -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#TinyHydrophobicAminoAcid">
@@ -1794,6 +2034,22 @@
                         <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#hasSize"/>
                         <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Tiny"/>
                     </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#TinyNeutralAliphaticAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#TinyNeutralAliphaticAminoAcid">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AliphaticAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#NeutralChargedAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#TinyAminoAcid"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -1824,6 +2080,22 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#tinyChargedAminoAcid -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#tinyChargedAminoAcid">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tiny charged amino acid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#ChargedAminoAcid"/>
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#TinyAminoAcid"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1837,9 +2109,6 @@
         <preferredName xml:lang="en">Thing</preferredName>
         <preferredName xml:lang="zh">&#20107;&#29289;</preferredName>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#NeutralChargedAminoAcid">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutral harged Amino Acid</rdfs:label>
-    </rdf:Description>
     
 
 
@@ -1851,6 +2120,10 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -1883,10 +2156,6 @@
             <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#W"/>
             <rdf:Description rdf:about="http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Y"/>
         </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
